@@ -16,6 +16,9 @@ module.exports = {
     '~/node_modules/normalize.css/normalize.css',
     '~/assets/global.css'
   ],
+  router: {
+    base: '/simple-blog-with-vuex/'
+  },
   generate: {
     routes () {
       return axios.get('https://jsonplaceholder.typicode.com/posts')
