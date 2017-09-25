@@ -11,6 +11,8 @@ The `docs` folder contains the [generated version](https://fabiofranchino.com/si
 ### run
 
   npm run dev
+  
+then, go to http://localhost:3000
 
 ### build
 

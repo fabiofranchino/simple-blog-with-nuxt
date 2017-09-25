@@ -17,7 +17,8 @@ module.exports = {
     '~/assets/global.css'
   ],
   router: {
-    base: '/simple-blog-with-nuxt/'
+    base: ''
+    // base: '/simple-blog-with-nuxt/'
   },
   generate: {
     routes () {
